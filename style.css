@@ -1,0 +1,216 @@
+*{
+    font-family: "Poppins";
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pertama:rgb(67, 132, 211);
+}
+.navbar{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.navbar-brand{
+    font-weight: bold;
+    color: var(--pertama);
+}
+.kont-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+.kont-1 a{
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    background-color: var(--pertama);
+    padding: 2px 25px;
+    font-size: 16px;
+    transition: 0.1s linear;
+}
+.kont-1 a:hover{
+    background-color: rgb(28, 105, 198);
+}
+
+.deskripsi-1{
+    width: 30%;
+}
+.deskripsi-1 h3{
+    font-size: 32px;
+}
+.deskripsi-1 p{
+    font-size: 14px;
+}
+.pilihan-1{
+    width: 130%;
+    font-size: 10px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    margin-bottom: 10px;
+}
+.pilihan-1 p{
+    padding: 3px 7px;
+}
+.gambar-1{
+    width: 60%;
+}
+.gambar-1 img{
+    width: 100%;
+}
+
+/* MOBIL */
+.kont-2{
+    padding: 10px 40px;
+    margin: 30px 0;
+    width: 95%;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: 0.3s linear;
+    
+}
+.card-body{
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.card-tittle{
+    padding: 5px 10px;
+}
+.card-tittle h3{
+    font-size: 20px;
+}
+.card-tittle p{
+    font-size: 14px;
+}
+.icon p{
+    margin-right: 10px;
+}
+.icon img{
+    width: 22px;
+    margin-right: 5px;
+}
+.icon img:hover{
+    transform: scale(1.1);
+}
+.biaya{
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+}
+.biaya a{
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    background-color: var(--pertama);
+    padding: 2px 15px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.1s linear;
+}
+.biaya a:hover{
+    background-color: rgb(28, 105, 198);
+}
+
+/* REASONS */
+.kont-3{
+    padding: 10px 0;
+    margin: 30px 0;
+}
+.judul{
+    padding: 10px 10px;
+}
+.judul img{
+    width: 50px;
+    padding: 7px 7px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+/* CUSTOMER */
+.kont-4{
+    padding: 10px 0;
+    margin: 30px 0;
+}
+.wrapper{
+    background-color: var(--pertama);
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    border-radius: 20px;
+}
+.kartu{
+    background-color: rgb(234, 234, 234);
+    width: 310px;
+    margin: 15px 2px;
+}
+.kartu p{
+    background-color: white;
+    padding: 15px 15px;
+    margin: 10px auto;
+    width: 300px;
+}
+.icon-4{
+    padding: 5px 5px;
+}
+.icon-4 p{
+    background: none;
+    padding: 0;
+}
+.icon-4 img{
+    background-color: rgba(47, 234, 128, 0.3);
+    margin-right: 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.kont-5{
+    background-color: var(--pertama);
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (min-width:200px) and (max-width:700px) {
+    .kont-1{
+        display: inline-block;
+        padding: 10px 10px;
+    }
+    .deskripsi-1{
+        width: 100%;
+        text-align: center;
+    }
+    .deskripsi-1 h3{
+        font-size: 28px;
+    }
+    .pilihan-1{
+        width: 100%;
+    }
+    .gambar-1{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .kont-2{
+        width: 100%;
+    }
+    .kont-3 p{
+        font-size: 12px;
+    }
+    .kartu{
+        width: 210px;
+    }
+    .kartu p{
+        width: 200px;
+        font-size: 12px;
+    }
+    .icon-4 img{
+        width: 50px;
+        height: 50px;
+    }
+}
